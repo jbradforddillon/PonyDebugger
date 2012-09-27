@@ -691,6 +691,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		75B367E516149B54003CE165 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CONFIGURATION_BUILD_DIR)/usr/local/include\"",
+					./SocketRocket,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		75B367E616149B54003CE165 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PonyDebugger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonyDebugger/PonyDebugger-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(inherited)/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = AdHoc;
+		};
 		F683ADB714FC1B4D008EBBA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -770,6 +805,7 @@
 			buildConfigurations = (
 				F683ADB714FC1B4D008EBBA7 /* Debug */,
 				F683ADB814FC1B4D008EBBA7 /* Release */,
+				75B367E516149B54003CE165 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -779,6 +815,7 @@
 			buildConfigurations = (
 				F683ADBA14FC1B4D008EBBA7 /* Debug */,
 				F683ADBB14FC1B4D008EBBA7 /* Release */,
+				75B367E616149B54003CE165 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
