@@ -720,6 +720,7 @@
 				DSTROOT = /tmp/PonyDebugger.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebugger/PonyDebugger-Prefix.pch";
+				INSTALL_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(inherited)/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -779,6 +780,7 @@
 				DSTROOT = /tmp/PonyDebugger.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebugger/PonyDebugger-Prefix.pch";
+				INSTALL_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(inherited)/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -791,6 +793,7 @@
 				DSTROOT = /tmp/PonyDebugger.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PonyDebugger/PonyDebugger-Prefix.pch";
+				INSTALL_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(inherited)/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
