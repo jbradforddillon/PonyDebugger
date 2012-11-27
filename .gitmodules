@@ -3,4 +3,4 @@
 	url = https://github.com/AFNetworking/AFNetworking.git
 [submodule "ObjC/SocketRocket"]
 	path = ObjC/SocketRocket
-url=https://github.com/jbradforddillon/SocketRocket.git
+url=git://github.com/jbradforddillon/SocketRocket.git
